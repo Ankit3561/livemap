@@ -5,6 +5,7 @@ const Wallet = () => {
   return (
     <View style={{flex:1}}>
       <Text>Wallet</Text>
+      <Text>Amount </Text>
     </View>
   )
 }
