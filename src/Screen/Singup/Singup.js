@@ -40,7 +40,7 @@ const Singup = ({navigation}) => {
                 <Text
                   style={{
                     fontWeight: 'bold',
-                    fontSize: 30,
+                    fontSize: 20,
                     color: 'black',
                   }}>
                   Login
@@ -49,7 +49,7 @@ const Singup = ({navigation}) => {
               <Text
                 style={{
                   fontWeight: 'bold',
-                  fontSize: 30,
+                  fontSize: 20,
                   color: 'black',
                 }}>
               Sign Up
@@ -67,7 +67,7 @@ const Singup = ({navigation}) => {
                 borderWidth: 0.5,
 
                 color: 'black',
-                padding: 15,
+                padding: 7,
                 marginTop: 2,
                 borderRadius: 3,
               }}
@@ -89,7 +89,7 @@ const Singup = ({navigation}) => {
                 borderWidth: 0.5,
 
                 color: 'black',
-                padding: 15,
+                padding:7,
                 marginTop: 2,
                 borderRadius: 3,
               }}
@@ -111,7 +111,7 @@ const Singup = ({navigation}) => {
                 borderWidth: 0.5,
 
                 color: 'black',
-                padding: 15,
+                padding:7,
                 marginTop: 2,
                 borderRadius: 3,
               }}
@@ -133,7 +133,7 @@ const Singup = ({navigation}) => {
                 borderWidth: 0.5,
 
                 color: 'black',
-                padding: 15,
+                padding:7,
                 marginTop: 2,
                 borderRadius: 3,
               }}
@@ -155,7 +155,7 @@ const Singup = ({navigation}) => {
                 borderWidth: 0.5,
 
                 color: 'black',
-                padding: 15,
+                padding:7,
                 marginTop: 2,
                 borderRadius: 3,
               }}

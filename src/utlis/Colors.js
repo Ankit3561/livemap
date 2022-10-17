@@ -2,6 +2,7 @@ export default{
     fullWwhite:"#fff",
     white:"#eee",
     red:"#bf1313",
+    pinkRed:"#FA2A55",
     lightRed:"rgba(255, 99, 71, 0.5)",
     lightYellow:"rgba(255, 199, 41, 0.5)",
     khaki:"rgb(240,230,140)",
@@ -13,4 +14,5 @@ export default{
     gray:"	rgb(128,128,128)",
     black:"#000",
     lightBlack:"#424242",
+    darkBlue: '#7978B5',
     }

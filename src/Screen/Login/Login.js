@@ -21,6 +21,19 @@ const Login = ({navigation}) => {
   const navigateSingup = () => {
     navigation.navigate('Singup');
   };
+  const [email, setEmail] = useState('');
+const [emailValidError, setEmailValidError] = useState('');
+const handleValidEmail = val => {
+  let reg = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w\w+)+$/;
+  
+  if (val.length === 0) {
+    setEmailValidError('email address must be enter');
+  } else if (reg.test(val) === false) {
+    setEmailValidError('enter valid email address');
+  } else if (reg.test(val) === true) {
+    setEmailValidError('');
+  }
+  };
   return (
     <SafeAreaView>
       <ImageBackground
@@ -40,7 +53,12 @@ const Login = ({navigation}) => {
             type="text"
             //   onBlur={onBlur}
             // onChangeText={onChange}
-            // value={value}
+            value={email}
+            autoCorrect={false}
+            onChangeText={value => {
+              setEmail(value);
+              handleValidEmail(value);
+            }}
             style={style.firstText}
             size="2xl"
             mx="5"

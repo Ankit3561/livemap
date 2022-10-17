@@ -12,11 +12,11 @@ export default StyleSheet.create({
     borderRadius: 5,
   },
   Login:{  fontWeight: 'bold',
-  fontSize: 30,
+  fontSize: 23,
   color: 'black',},
   singUp:{
     fontWeight: 'bold',
-    fontSize: 30,
+    fontSize:23,
     color: 'black',
   },
   firstInput:{fontWeight: 'bold', color: 'black', margin: 8},
@@ -24,7 +24,7 @@ export default StyleSheet.create({
     borderWidth: 0.5,
 
     color: 'black',
-    padding: 15,
+    padding: 7,
     marginTop: 2,
     borderRadius: 3,
   },
@@ -32,7 +32,7 @@ export default StyleSheet.create({
     borderWidth: 0.5,
 
     color: 'black',
-    padding: 15,
+    padding: 7,
     marginTop: 2,
     borderRadius: 3,
   },
